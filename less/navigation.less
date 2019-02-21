@@ -1,1 +1,39 @@
 // Navigation Styles here
+
+.header-section {
+    border-bottom: .15rem dashed @silver;
+
+    .inner-header-section {
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+
+        .plain-links();
+
+        .logo {
+            margin: 2.4rem 0;
+            font-weight: 500;
+        }
+
+        .nav-group {
+            width: 50%;
+            display: inline-block;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .nav-item {
+                margin: 0 1.35rem;
+                font-size: 1.6rem;
+
+                &:last-child {
+                    margin-right: 3rem;
+                }
+            }
+        }
+
+    }
+}
