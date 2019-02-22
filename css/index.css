@@ -333,22 +333,30 @@ img {
 .home .content-pick .destination .btn {
   width: 82%;
   padding: 0.2rem;
-  background-color: #17A2B8;
+  background: #17A2B8;
   color: #FFFFFF;
   font-weight: 600;
   font-size: 1.8rem;
-  border: 1rem solid #17A2B8;
+  border: 0.2rem solid #17A2B8;
   border-radius: 1.5rem;
+}
+.home .content-pick .destination .btn:hover {
+  color: #17A2B8;
+  background: #FFFFFF;
 }
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
     width: 100%;
     padding: 0.2rem;
-    background-color: #17A2B8;
+    background: #17A2B8;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 1.8rem;
-    border: 1rem solid #17A2B8;
+    border: 0.2rem solid #17A2B8;
     border-radius: 1.5rem;
+  }
+  .home .content-pick .destination .btn:hover {
+    color: #17A2B8;
+    background: #FFFFFF;
   }
 }

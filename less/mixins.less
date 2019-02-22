@@ -3,12 +3,17 @@
 .button-factory(@width, @padding) {
     width: @width;
     padding: @padding;
-    background-color: @eastern-blue;
+    background: @eastern-blue;
     color: @white;
     font-weight: 600;
     font-size: 1.8rem;
-    border: 1rem solid @eastern-blue;
+    border: .2rem solid @eastern-blue;
     border-radius: 1.5rem;
+
+    &:hover {
+        color: @eastern-blue;
+        background: @white;
+    }
 }
 
 .plain-links() {
